@@ -1,0 +1,105 @@
+.Title {
+    font-size:48px;
+    text-align:center;
+    font-family:Scout-condensed bold;
+    text-transform:uppercase;
+    padding:0;
+    margin: 10px;
+    color:#af3737
+}
+.shr {
+    color:30,0,80;
+    width:50%;
+    text-align:center;
+}
+body {
+    margin:0;
+    padding:0;
+    background-color: #222222;
+}
+
+h1 {
+    margin:10px;
+}
+.navbar {
+    list-style-type:none;
+    border-radius:20px;
+    margin:10px;
+    padding:10px;
+    overflow:hidden;
+    background-color:#5e0100;
+}
+ul li a {
+    display:block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    font-size:24px;
+    font-family:Scout-condensed bold;
+    text-decoration:none;
+    border-radius:10px;
+}
+ul li a:hover {
+    background-color:#330100
+}
+ul li {
+    float:left;
+}
+@font-face {
+    font-family: Scout-condensed bold;
+    src: url(ScoutCondensed-bold.otf);
+}
+.container1 {
+    box-sizing:border-box;
+    width: 100%;
+}
+.container1 .navbar {
+    box-sizing: border-box;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:calc(100% - 20px);
+    margin:10px;
+    padding:10px;
+    max-width:100%;
+}
+.gp{
+    color:#af3737
+}
+p {
+    color:white;
+    font-family:Scout-condensed bold;
+    font-size:18px;
+}
+.mainbodyl {
+    border-radius:20px;
+    display:flex;
+    background-color:#5e0100;
+    width:calc(50% - 20px);
+    height:100%;
+    margin:10px;
+    padding: 10px 20px 10px 20px;
+    align-items:left;
+    text-align:left;
+    float:left;
+    box-sizing:border-box;
+}
+.mainbodyr {
+    border-radius:20px;
+    display:flex;
+    background-color:#5e0100;
+    width:calc(50% - 20px);
+    height:100%;
+    margin:10px;
+    padding: 10px 20px 10px 20px;
+    align-items:right;
+    text-align:left;
+    float:right;
+    box-sizing:border-box;
+}
+#logo {
+    height:50px;
+    padding:0px;
+    margin:0px;
+    align-items: center;
+}
