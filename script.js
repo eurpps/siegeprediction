@@ -12,8 +12,16 @@ const RANK_NAMES = [
   'Diamond V','Diamond IV','Diamond III','Diamond II','Diamond I',
   'Champion'
 ];
-
-
+function datafetch()
+  var PlayerName = ""
+  var platformType = ""
+  fetch('https://api.r6data.eu/api/stats?type=stats&nameOnPlatform=PlayerName&platformType=uplay&platform_families=pc', {
+      headers: {
+          'api-key': 'YOUR_API_KEY'
+      }
+  })
+    .then(response => response.json())
+    .then(data => console.log(data));
 
 function storekey() {
     
