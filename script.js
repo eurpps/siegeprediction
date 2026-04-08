@@ -1,3 +1,18 @@
+const BASE = 'https://api.r6data.eu';
+const proxied = url => 'https://corsproxy.io/?url=' + encodeURIComponent(url);
+
+const RANK_NAMES = [
+  'Unranked',
+  'Copper V','Copper IV','Copper III','Copper II','Copper I',
+  'Bronze V','Bronze IV','Bronze III','Bronze II','Bronze I',
+  'Silver V','Silver IV','Silver III','Silver II','Silver I',
+  'Gold V','Gold IV','Gold III','Gold II','Gold I',
+  'Platinum V','Platinum IV','Platinum III','Platinum II','Platinum I',
+  'Emerald V','Emerald IV','Emerald III','Emerald II','Emerald I',
+  'Diamond V','Diamond IV','Diamond III','Diamond II','Diamond I',
+  'Champion'
+];
+
 
 
 function storekey() {
